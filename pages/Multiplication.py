@@ -7,8 +7,11 @@ st.markdown("""
     This app multiplies two Polynomial with degree less than 3
     ***
          """)
-st.sidebar.markdown("# Main page 🎈")
-
+st.sidebar.markdown("# Multiplication 😈")
+st.sidebar.image(
+            "https://cdn.dribbble.com/users/2933921/screenshots/6233875/dribbble_giannis_1.gif", # I prefer to load the GIFs using GIPHY
+            width=300, # The actual size of most gifs on GIPHY are really small, and using the column-width parameter would make it weirdly big. So I would suggest adjusting the width manually!
+        )
 
 
 sign = ['+','-']

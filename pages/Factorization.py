@@ -7,8 +7,11 @@ st.markdown("""
     This app factorizes two Polynomial with degree 2
     ***
          """)
-st.sidebar.markdown("# Main page 🎈")
-
+st.sidebar.markdown("# Factorization 🎈")
+st.sidebar.image(
+            "https://cdn.dribbble.com/users/2933921/screenshots/7088453/media/d30b00694c69bde54f1d1b7d2471463b.gif", # I prefer to load the GIFs using GIPHY
+            width=300, # The actual size of most gifs on GIPHY are really small, and using the column-width parameter would make it weirdly big. So I would suggest adjusting the width manually!
+        )
 
 sign = ['+','-']
 

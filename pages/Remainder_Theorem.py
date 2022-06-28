@@ -7,8 +7,11 @@ st.markdown("""
     This app find remainder of the polynomial
     ***
          """)
-st.sidebar.markdown("# Main page 🎈")
-
+st.sidebar.markdown("# Remainder Theorem 🤖")
+st.sidebar.image(
+            "https://cdn.dribbble.com/users/2933921/screenshots/6233848/dribbble_lebron_1.gif", # I prefer to load the GIFs using GIPHY
+            width=300, # The actual size of most gifs on GIPHY are really small, and using the column-width parameter would make it weirdly big. So I would suggest adjusting the width manually!
+        )
 
 
 sign = ['+','-']
